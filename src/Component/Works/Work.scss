@@ -1,0 +1,101 @@
+.works{
+    background-color: crimson;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+     position:relative;
+     .arrow{
+         height:50px;
+         position:absolute;
+         cursor:pointer;
+
+         &.left{
+             left:100px;
+             transform:rotate(180deg);
+         }
+         &.right{
+             right:100px;
+         }
+     }
+
+    .slider{
+        height:350px;
+        display: flex;
+        position: absolute;
+        left: 0;
+        transition: all 1s ease-out;
+        .container{
+          width:100vw;
+          display: flex;
+          align-items:center;
+          justify-content: center;
+          .item{
+              width: 700px;
+              height: 100%;
+              background-color: white;
+              border-radius:20px;
+              display: flex;
+              align-items:center;
+              justify-content: center;
+             
+           .left{
+               height: 80%;
+               flex:4;
+               display: flex;
+               align-items:center;
+               justify-content: center;
+               .leftcontainer{
+                   width:90%;
+                   height: 70%;
+                   display: flex;
+               flex-direction: column;
+               justify-content: center;
+               .imgcontainer{
+                   width:40px;
+                   height:40px;
+                   border-radius:50%;
+                   background-color:rgb(245,179,155);
+                   display: flex;
+                   align-items:center;
+                   justify-content: center;
+
+                   img{
+                       width:25px;
+                   }
+               }
+               h2{
+                   font-size:25px;
+
+               }
+              p{
+                  font-size:13px
+              }
+              span{
+                  font-size:12px;
+                  font-weight: 600;
+                  text-decoration: underline;
+              }
+               }
+               
+           }   
+           .right{
+            height: 100%;
+            flex:8;
+            display: flex;
+            align-items:center;
+            justify-content: center;
+            overflow: hidden;
+
+            img{
+                width:400px;
+                transform: rotate(-10deg);
+            }
+        }   
+
+
+
+          }
+        }
+    }
+    
+}
