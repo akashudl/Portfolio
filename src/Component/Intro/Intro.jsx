@@ -22,7 +22,7 @@ useEffect(()=>{
       <div className="right">
         <div className="wrapper">
           <h2>Hi There, I'm</h2>
-          <h1>Akash Pandit</h1>
+          <h1>Ashwik Konda</h1>
           <h3><span ref={texref}></span></h3>
         </div>
         <a href="#portfolio">
